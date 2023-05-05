@@ -1,0 +1,62 @@
+.cont {
+   width: 100%;
+   max-width: 1241px;
+   margin: 0 auto;
+   position: relative;
+   height: 700px;
+}
+.nextArrow {
+   position: absolute;
+   right: 10px;
+   top: 200px;
+   z-index: 2;
+}
+.prevArrow {
+   position: absolute;
+   left: 10px;
+   top: 200px;
+   z-index: 2;
+}
+
+.mySwiper {
+   height: 170px;
+}
+.imagePagination {
+   filter: grayscale(100%);
+}
+.imagePagination.zoom {
+   filter: grayscale(0%);
+}
+@media (max-width: 1280px) {
+   .cont {
+      max-width: 100%;
+      height: auto;
+   }
+}
+@media (max-width: 991px) {
+   .cont {
+      max-width: 100%;
+      height: auto;
+   }
+}
+@media (max-width: 450px) {
+   .cont {
+      width: 100%;
+      margin: 0;
+      position: relative;
+      height: auto;
+   }
+   .mySwiper {
+      height: 90px;
+   }
+   .nextArrow {
+      right: 10px;
+      top: 50px;
+      z-index: 2;
+   }
+   .prevArrow {
+      left: 10px;
+      top: 50px;
+      z-index: 2;
+   }
+}

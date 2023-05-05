@@ -1,0 +1,32 @@
+.listItem {
+   cursor: pointer;
+   height: 100%;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 0.33fr 2.82fr 2.44fr 1.3fr;
+   align-items: center;
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+   padding: 19px 19px 19px 69px;
+}
+.listItem:nth-of-type(odd) {
+   background-color: rgba(245, 245, 245, 0.61);
+}
+.listItem:hover {
+   background-color: #f5f5f5;
+}
+.coursInfo {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.actionControll {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 150px;
+   margin-left: 74px;
+}

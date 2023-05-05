@@ -1,0 +1,85 @@
+.forBg {
+   width: 100%;
+   background-color: #0a6296;
+}
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 100px 100px 0px 100px;
+   font-family: var(--base-font);
+}
+.forDisplay {
+   display: flex;
+   justify-content: space-between;
+}
+.contacts {
+   width: 806px;
+   display: flex;
+   justify-content: space-between;
+}
+.contacts div h4 {
+   cursor: pointer;
+   font-size: 16px;
+   padding-bottom: 18px;
+   line-height: 18.77px;
+   color: #ffffff;
+}
+.contacts div h4:hover {
+   color: #4c94f0;
+}
+.contacts div h4 a {
+   margin-left: 12px;
+}
+.social {
+   width: 160px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.text {
+   margin-top: 92px;
+   padding-bottom: 20px;
+   font-size: 14px;
+   line-height: 16.42px;
+   color: #ffffff;
+}
+.copyright {
+   font-size: 14px;
+   line-height: 16px;
+   color: #ffffff;
+   margin-top: 60px;
+   padding-bottom: 20px;
+}
+@media (max-width: 991px) {
+   .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 50px 50px 0px 50px;
+      font-family: var(--base-font);
+   }
+}
+
+@media (max-width: 450px) {
+   .container {
+      max-width: 100%;
+      margin-left: 16px;
+      margin-right: 16px;
+      padding: 64px 0 0 0;
+      height: 610px;
+   }
+   .forDisplay {
+      display: flex;
+   }
+   .contacts {
+      max-width: 195px;
+      max-height: 287px;
+      display: flex;
+      flex-direction: column;
+   }
+   .connecting {
+      margin-top: 41px;
+   }
+   .copyright {
+      margin-top: 220px;
+   }
+}

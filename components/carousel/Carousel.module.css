@@ -1,0 +1,106 @@
+.employeName {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 140%;
+   color: #161616;
+   font-family: var(--base-font);
+   white-space: nowrap;
+}
+.jobTitleStyles {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #6f6f6f;
+   white-space: nowrap;
+}
+.cont {
+   width: 82%;
+   max-width: 1250px;
+   margin: 0 auto;
+   position: relative;
+   font-family: var(--base-font);
+}
+.nextArrow {
+   position: absolute;
+   right: 10px;
+   top: 200px;
+   z-index: 2;
+}
+.prevArrow {
+   position: absolute;
+   left: 10px;
+   top: 200px;
+   z-index: 2;
+}
+.myDiv {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   transition: transform 0.2s; /* Animation */
+}
+
+.zoom {
+   transform: scale(1.1);
+   transition: transform 0.2s;
+}
+.swiper .zoom p {
+   display: block;
+}
+
+.swiper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+}
+.swiper p {
+   display: none;
+}
+
+.swiperSlide {
+   width: 200px !important;
+   height: 470px;
+}
+.title {
+   display: inline-block;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+   font-size: 34px;
+   text-transform: uppercase;
+   background: linear-gradient(265.91deg, #ff5b91 26.36%, #e7c00f 97.23%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   margin-bottom: 70px;
+}
+
+@media (max-width: 450px) {
+   .cont {
+      width: 100%;
+      margin: 0;
+   }
+   .employeName {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+   }
+   .jobTitleStyles {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+   }
+   .title {
+      font-size: 20px;
+      line-height: 23px;
+      margin-left: 15px;
+   }
+   .swiper {
+      margin-bottom: 120px;
+   }
+}

@@ -1,0 +1,82 @@
+.content {
+   box-sizing: border-box;
+   font-family: var(--base-font);
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.titleBox {
+   display: flex;
+   flex-direction: column;
+   width: 470px;
+   height: 200px;
+}
+.buttonContainer {
+   margin-top: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.title {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 130%;
+   color: #161616;
+   margin-top: 10px;
+   margin-bottom: 6px;
+   width: 92%;
+}
+
+.date {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 130%;
+   color: #003a84;
+}
+
+.imageStyles {
+   width: 100%;
+   height: auto;
+}
+.registratoion {
+   width: 172px;
+}
+.information {
+   width: 230px;
+}
+
+@media (max-width: 450px) {
+   .content {
+      margin: 0px 0px 0px 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding-bottom: 50px;
+   }
+   .imageStyles {
+      width: 100%;
+      height: 100%;
+   }
+   .titleBox {
+      flex-direction: column;
+      width: 100%;
+      font-size: 20px;
+      height: auto;
+   }
+   .buttonContainer {
+      justify-content: flex-start;
+      margin-top: 10px;
+   }
+   .title {
+      font-size: 20px;
+      width: 100%;
+   }
+
+   .date {
+      font-size: 16px;
+   }
+}

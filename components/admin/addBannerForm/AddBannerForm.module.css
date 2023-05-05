@@ -1,0 +1,36 @@
+.addBunnerTitle {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   font-family: var(--base-font);
+   line-height: 23px;
+   color: #161616;
+   text-align: start;
+   padding-bottom: 20px;
+}
+.addBookFormContent {
+   padding: 30px;
+   text-align: start;
+   width: 672px;
+}
+.dateContent {
+   display: flex;
+   flex-direction: column;
+}
+.addDateWrapper {
+   display: flex;
+   width: 360px;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.addBannerbtn {
+   text-align: end;
+}
+.addBannerButton {
+   width: 172px;
+}
+.cancelBannerButton {
+   width: 172px;
+   margin-right: 10px;
+}

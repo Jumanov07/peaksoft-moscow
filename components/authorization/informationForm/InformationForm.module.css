@@ -1,0 +1,50 @@
+.informationWrapper {
+   width: 100%;
+   box-sizing: border-box;
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   padding: 30px;
+   color: var(--primary-black);
+}
+.applicationTitle {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 23px;
+   color: var(--primary-black);
+}
+.formHeader {
+   display: flex;
+   justify-content: space-between;
+}
+.iconXStyles {
+   cursor: pointer;
+}
+.usersSubmitSection {
+   text-align: end;
+   padding-top: 30px;
+}
+
+.userSelectSection {
+   text-align: start;
+}
+.btnClass {
+   width: 190px;
+}
+@media (max-width: 450px) {
+   .informationWrapper {
+      width: 100%;
+      height: auto;
+      padding: 29px 16px;
+   }
+   .userSelectSection {
+      margin-top: 30px;
+   }
+   .usersSubmitSection {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+   }
+}

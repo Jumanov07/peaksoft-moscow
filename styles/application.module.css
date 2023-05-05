@@ -1,0 +1,53 @@
+.textBanner {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--primary-blacks);
+}
+.bannerHeaderStyles {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 100px;
+  align-items: center;
+}
+.bannerList {
+  width: 1240px;
+  margin: 0 auto;
+  min-height: 700px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+}
+.searchComponentPosition{
+  margin-bottom: 18px;
+}
+
+.getExcelStyles {
+  padding: 1em 2.5em;
+  background-color: var(--secondary-normal-btn);
+  border-radius: 10px;
+  font-family: var(--base-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white);
+  cursor: pointer;
+}
+
+.getExcelStyles:hover {
+  background-color: var(--secondary-hover-btn);
+}
+.getExcelStyles:focus {
+  background-color: var(--secondary-active-btn);
+}
+.getExcelStyles:disabled {
+  background-color: var(--secondary-disabled-btn);
+  cursor: not-allowed;
+}
+
+

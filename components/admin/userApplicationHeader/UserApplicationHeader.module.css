@@ -1,0 +1,21 @@
+.userApplicationHeader {
+  width: 1240px;
+  align-items: center;
+  border-bottom: 0.5px solid #c9c9c9;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.usersUtils {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1.2fr 3.7fr;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+.usersInfo {
+  display: flex;
+  width: 67%;
+  justify-content: space-between;
+}

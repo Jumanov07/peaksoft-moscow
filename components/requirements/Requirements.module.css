@@ -1,0 +1,87 @@
+
+.forBg {
+   position: relative;
+   width: 100%;
+   height: 672px;
+   font-family: var(--base-font);
+}
+.bgImage {
+   bottom: -3px;
+   z-index: -1;
+   width: 100%;
+   height: 269;
+}
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 170px 100px;
+   position: sticky;
+   font-family: var(--base-font);
+}
+.forCards {
+   display: flex;
+   justify-content: space-between;
+}
+.container h2 {
+   width: 363px;
+   color: #f4f4f4;
+   font-size: 34px;
+   font-weight: 500;
+   line-height: 44px;
+   text-transform: uppercase;
+   margin-bottom: 60px;
+}
+.card {
+   width: 295px;
+   height: 184px;
+   background-color: #ffffff;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   margin-right: 20px;
+}
+.card p {
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 23.4px;
+   margin-top: 48px;
+}
+
+@media (max-width: 450px) {
+   .container {
+      width: 100%;
+      padding: 120px 16px;
+   }
+   .container h2 {
+      width: 100%;
+      font-size: 20px;
+      line-height: 26px;
+   }
+   .forCards {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;
+      column-gap: 10px;
+   }
+   .card {
+      width: 48%;
+      height: 168px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-bottom: 8px;
+      margin-right: 0;
+   }
+   .card p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20.8px;
+      margin-top: 0;
+   }
+}

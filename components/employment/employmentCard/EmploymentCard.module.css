@@ -1,0 +1,69 @@
+.container {
+   max-width: 100%;
+   font-family: var(--base-font);
+}
+
+.wrapper {
+   max-width: 1440px;
+}
+
+.box {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.stageIcon {
+   width: 50px;
+   margin-right: 85px;
+}
+
+.line {
+   max-width: 100%;
+   height: 1px;
+   background-color: #c9c9c9;
+}
+
+.description {
+   width: 504px;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+   margin-top: 18px;
+   margin-left: 20px;
+}
+
+.title {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+   color: #000000;
+   margin-top: 50px;
+   margin-left: 20px;
+}
+@media (max-width: 450px) {
+   .box {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+   .stageIcon {
+      width: 50px;
+      margin-bottom: 18px;
+   }
+   .description {
+      margin-top: 18px;
+      width: 80%;
+   }
+   .title {
+      margin-top: 25px;
+   }
+}

@@ -1,0 +1,71 @@
+.dropZoneBox {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: var(--base-font);
+   font-style: normal;
+}
+
+.uploadedBook {
+   width: 220px;
+   background: #e8e8e8;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 0.5px solid white;
+}
+.uploadedBook:hover {
+   border: 0.5px solid var(--secondary-normal-btn);
+   box-shadow: 5px 3px 4px 2px var(--secondary-normal-btn);
+   transition: 0.3s ease-out;
+   cursor: pointer;
+}
+.dromImgBox {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 220px;
+   height: 155px;
+}
+.span {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   text-align: center;
+   color: #6a6a6a;
+   padding: 0px 45px 0px 45px;
+}
+.plusicon {
+   width: 130px;
+   text-align: center;
+   margin-bottom: 17px;
+}
+.error {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: var(--tertiary-red);
+   text-align: end;
+}
+
+.changeBtn {
+   font-family: var(--base-font);
+   background: none;
+   font-style: normal;
+   background-color: none;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   padding: 10px;
+   transition: 0.5s ease-in;
+}
+.changeBtn:hover {
+   font-size: 14px;
+   transition: 0.5s ease-in;
+   color: red;
+}

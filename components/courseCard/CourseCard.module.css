@@ -1,0 +1,178 @@
+.container {
+   width: 610px;
+   background: rgba(232, 232, 232, 0.4);
+   border: 1px solid #c9c9c9;
+   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+   position: relative;
+   font-family: 'Open Sans', sans-serif;
+   cursor: pointer;
+   padding: 20px 37px;
+}
+
+.parentBox {
+   max-width: 537px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 8px;
+}
+
+.box {
+   width: 100px;
+   height: 100px;
+   background: rgba(225, 225, 225, 0.6);
+   border-radius: 3px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   gap: 10px;
+}
+
+.title,
+.monthCourse {
+   text-transform: uppercase;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+}
+
+.title .month {
+   font-size: 16px;
+   color: #707070;
+   line-height: 22px;
+}
+.text {
+   width: 547px;
+   padding: 23px 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.container:hover {
+   background: #073856;
+   box-shadow: 0px 7px 16px rgba(0, 0, 0, 0.28);
+   color: #f4f4f4;
+   transition: all ease 0.7s;
+}
+.container:hover .box {
+   background: #012f49;
+   transition: all ease 0.7s;
+   color: #f4f4f4;
+}
+
+.container:hover .price {
+   color: #f4f4f4;
+   transition: all ease 0.7s;
+}
+.prices {
+   display: flex;
+   width: 150px;
+   text-align: right;
+   color: #9e9e9e;
+   font-size: 16px;
+   margin-bottom: 6px;
+}
+
+.typeOfCourse {
+   width: 65px;
+   text-align: left;
+}
+.price {
+   color: #003a84;
+   text-align: right;
+   width: 65px;
+   font-weight: 600;
+}
+
+.monthCourse div {
+   display: inline-block;
+   position: relative;
+   left: 8px;
+   top: 2px;
+   width: 17px;
+}
+
+.footerBtn {
+   display: flex;
+   gap: 18px;
+   margin-top: 20px;
+}
+
+.footerBtn button {
+   width: 100%;
+   color: white;
+   padding: 14px 0;
+   text-align: center;
+   background-color: #1f6ed4;
+   text-transform: uppercase;
+   font-weight: 600;
+   border-radius: 10px;
+   font-size: 14px;
+   line-height: 17px;
+}
+.monthCourse {
+   width: 100%;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: #1f6ed4;
+   border: 1px solid #1f6ed4;
+   padding: 14px 0;
+   border-radius: 10px;
+   text-align: center;
+}
+
+@media (max-width: 1280px) {
+   .container {
+      width: 610px;
+      height: 350px;
+      margin-top: 20px;
+   }
+}
+@media (max-width: 991px) {
+   .container {
+      width: 710px;
+      height: 380px;
+      margin: 0 auto;
+      margin-top: 20px;
+   }
+}
+
+@media (max-width: 450px) {
+   .container {
+      width: 98%;
+      margin-top: 16px;
+      height: auto;
+      padding: 20px 12px;
+   }
+
+   .parentBox {
+      width: 100%;
+      margin: 0 !important;
+   }
+
+   .text {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 18px 0;
+   }
+
+   .title {
+      font-size: 16px;
+   }
+   .title .month {
+      font-size: 14px;
+   }
+
+   .prices {
+      margin-bottom: 6px;
+   }
+   .footerBtn {
+      display: flex;
+      flex-direction: column;
+   }
+}

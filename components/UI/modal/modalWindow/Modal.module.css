@@ -1,0 +1,43 @@
+.wrapperOfModal {
+   display: flex;
+   align-items: center;
+}
+.modalContent {
+   position: fixed;
+   background: #ffffff;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1005;
+   border: 1px solid rgb(221, 218, 218);
+   border-radius: 6px;
+   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+   0% {
+      -webkit-transform: scale(0.1);
+      transform: scale(0.1);
+   }
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+   }
+}
+@keyframes scale-up-center {
+   0% {
+      -webkit-transform: scale(0.1);
+      transform: scale(0.1);
+   }
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+   }
+}

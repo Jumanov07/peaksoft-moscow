@@ -1,0 +1,29 @@
+.logoutWrapper {
+  font-family: var(--base-font);
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-black);
+  margin: 30px;
+  width: 445px;
+}
+
+.logoutText {
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.logoutConfirm {
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.logoutHeader {
+  text-align: start;
+}
+.logoutFooter {
+  text-align: end;
+}
+.logoutButton{
+    width: 172px;
+}

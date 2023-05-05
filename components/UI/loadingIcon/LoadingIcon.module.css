@@ -1,0 +1,34 @@
+.animationStlyes {
+   -webkit-animation: rotate-center 1s steps(360, start) infinite both;
+   animation: rotate-center 1s steps(360, start) infinite both;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+@media (max-width: 450px) {
+   .animationStlyes {
+      top: 30%;
+      left: 45%;
+   }
+}
+@-webkit-keyframes rotate-center {
+   0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+   }
+}
+@keyframes rotate-center {
+   0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+   }
+}

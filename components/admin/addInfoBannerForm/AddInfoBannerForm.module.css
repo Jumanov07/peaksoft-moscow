@@ -1,0 +1,27 @@
+.addBannerbtn {
+   text-align: end;
+}
+.addBannerButton {
+   width: 172px;
+   margin-top: 20px;
+}
+
+.addBannerInfoFormWrapper {
+   padding: 30px;
+   box-sizing: border-box;
+   width: 672px;
+}
+
+.addBunnerTitle {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 23px;
+   color: #161616;
+   text-align: start;
+   padding-bottom: 20px;
+}
+.addBannerInfoContent {
+   text-align: start;
+}

@@ -1,0 +1,22 @@
+.searchContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background: #ffffff;
+   border-radius: 6px;
+   position: relative;
+   z-index: 1;
+   width: 668px;
+}
+
+.inputField {
+   padding: 8px 24px 8px 16px;
+   border: 1px solid #f0f0f0;
+}
+.icon {
+   position: absolute;
+   top: 15;
+   right: 20px;
+   z-index: 2;
+}

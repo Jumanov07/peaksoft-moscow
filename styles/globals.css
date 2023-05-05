@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+@font-face {
+   font-family: 'Venus Rising';
+   src: url('../public/fonts/Typodermic\ -\ VenusRisingRg-Regular.ttf');
+}
+
+html,
+body {
+   padding: 0;
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+   background: #f4f4f4;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+/*--------------------*/
+
+.bigred {
+   font-size: 20px;
+   color: red;
+}
+:root {
+   --primary-input-text-color: #959595;
+   --normal-input-border: #bdbdbd;
+   --hover-input-border: #707070;
+   --active-input-border: #4c94f0;
+   --error-color: #ea1313;
+   /* primary */
+   --primary-white: #ffffff;
+   --primary-black: #161616;
+   --primary-gradient: linear-gradient(
+      238.38deg,
+      #0f799b -0.1%,
+      #021430 107.49%
+   );
+   --primary-dark-blue: #073856;
+   --primary-ligth-background: #f4f4f4;
+   /* secondary */
+   --secondary-linear-gradient: linear-gradient(
+      266.47deg,
+      #ff5b91 6.89%,
+      #368aee 97.34%
+   );
+   --secondary-hover-btn: #4c94f0;
+   --secondary-normal-btn: #1f6ed4;
+   --secondary-active-btn: #0052bc;
+   --secondary-disabled-btn: #c9c9c9;
+   --secondary-dark-blue: #003a84;
+   /* tertiary */
+   --tertiary-lightest-blue: #d1e6ff;
+   --tertiary-red: #ea1313;
+   /* base fonts */
+   --base-font: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,60 @@
+.circle {
+   position: absolute;
+   width: 145px;
+   padding-bottom: 500px;
+   overflow: hidden;
+   top: -20px;
+   left: 1057px;
+   z-index: 1;
+}
+
+.circle text {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 17.1px;
+   text-transform: uppercase;
+   fill: #ffffff;
+}
+
+.circle svg {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 288px;
+   -webkit-animation: rotate-center 7s steps(360, start) infinite both;
+   animation: rotate-center 7s steps(360, start) infinite both;
+}
+
+@-webkit-keyframes rotate-center {
+   0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+   }
+}
+@keyframes rotate-center {
+   0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+   }
+}
+
+@media (max-width: 450px) {
+   .circle {
+      left: 64%;
+      top: -20px;
+   }
+
+   .circle svg {
+      height: 215px;
+      left: 0px;
+      width: 80%;
+   }
+}

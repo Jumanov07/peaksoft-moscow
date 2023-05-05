@@ -1,0 +1,38 @@
+.container {
+   width: 100%;
+   max-width: 1240px;
+   margin: 120px auto;
+   overflow: hidden;
+   margin-bottom: 0;
+}
+.wrapper {
+   overflow: hidden;
+   position: relative;
+}
+
+@media (max-width: 1280px) {
+   .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 120px auto;
+      overflow: hidden;
+      margin-bottom: 0;
+   }
+}
+@media (max-width: 991px) {
+   .container {
+      width: 100%;
+      max-width: 100%;
+   }
+}
+
+@media (max-width: 450px) {
+   .container {
+      width: 100%;
+      margin: 110px 0 0 0;
+   }
+   .wrapper {
+      width: 100%;
+      margin: 0;
+   }
+}

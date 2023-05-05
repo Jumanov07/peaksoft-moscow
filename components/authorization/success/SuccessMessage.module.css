@@ -1,0 +1,43 @@
+.aboutTitles {
+   margin-bottom: 16px;
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 110%;
+   text-align: center;
+   background: linear-gradient(266.47deg, #ff5b91 6.89%, #368aee 97.34%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+}
+
+.callToUserMessage {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 130%;
+   text-align: center;
+   color: var(--hover-input-border);
+   margin-bottom: 28px;
+}
+.successMessageStyles {
+   background-color: var(--primary-ligth-background);
+   padding: 20px 60px 20px 60px;
+   border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.logoStyles {
+   background: rgba(191, 191, 191, 0.21);
+   border-radius: 4px;
+}
+.logoBox {
+   width: 200px;
+   display: flex;
+   justify-content: space-evenly;
+}

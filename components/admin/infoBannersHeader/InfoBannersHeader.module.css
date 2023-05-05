@@ -1,0 +1,14 @@
+.infoBannerHeaderStyles {
+  height: 56px;
+  display: grid;
+  grid-template-columns: 0.2fr 3fr 2.1fr 0.4fr;
+  font-family: var(--base-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  align-items: center;
+  border-bottom: 0.5px solid #c9c9c9;
+  padding-left: 69px;
+}

@@ -1,0 +1,36 @@
+.sectionWrapper {
+   width: 1240px;
+}
+
+.bannerIfnoContent {
+   display: flex;
+   justify-content: space-between;
+   height: 112px;
+   align-items: end;
+   width: 1240px;
+   margin: 0 auto;
+   font-family: var(--base-font);
+}
+.breadCrumbsStyles {
+   display: flex;
+   flex-direction: column;
+}
+.pathNameStyles {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   color: var(--primary-black);
+}
+.bannerName {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 26px;
+   color: var(--primary-black);
+   margin-top: 26px;
+   cursor: pointer;
+}
+.searchContent {
+   margin-top: 28px;
+}

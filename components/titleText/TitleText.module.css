@@ -1,0 +1,20 @@
+.container {
+   display: inline-block;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+   font-size: 34px;
+   text-transform: uppercase;
+   background: linear-gradient(265.91deg, #ff5b91 26.36%, #e7c00f 97.23%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+}
+
+@media (max-width: 450px) {
+   .container {
+      font-size: 20px;
+      line-height: 23px;
+   }
+}

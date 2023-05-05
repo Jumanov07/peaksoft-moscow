@@ -1,0 +1,26 @@
+.textareaStyles {
+   font-family: var(--base-font);
+   width: 100%;
+   height: 58px;
+   border: 1px solid;
+   border-radius: 6px;
+   padding: 8px 24px 8px 16px;
+   border-color: var(--normal-input-border);
+   font-size: 16px;
+   color: black;
+   resize: none;
+}
+.textareaStyles::placeholder {
+   color: var(--primary-input-text-color);
+}
+.textareaStyles:hover {
+   border-color: var(--hover-input-border);
+}
+.textareaStyles:focus {
+   border-color: var(--active-input-border);
+}
+@media (max-width: 450px) {
+   .textareaStyles{
+      width: 100%;
+   }
+}

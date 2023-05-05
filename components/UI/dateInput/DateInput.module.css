@@ -1,0 +1,158 @@
+.containerOfDateInput {
+   box-sizing: border-box;
+   width: 156px;
+   height: 36.5px;
+   position: relative;
+   border: 1px solid var(--normal-input-border);
+   display: flex;
+   align-items: center;
+   border-radius: 6px;
+   z-index: 10;
+   font-family: var(--base-font);
+}
+.input:focus.containerOfDateInput {
+   width: 200px;
+}
+
+.errorStyle {
+   box-sizing: border-box;
+   width: 156px;
+   height: 40px;
+   position: relative;
+   border: 1px solid var(--tertiary-red);
+   display: flex;
+   align-items: center;
+   border-radius: 6px;
+   z-index: 10;
+}
+
+.containerOfDateInput:hover {
+   border-color: var(--hover-input-border);
+}
+
+.input {
+   width: 100%;
+   height: 100%;
+   border-radius: 6px;
+   z-index: 11;
+   background-color: transparent;
+}
+
+.input:focus {
+   outline: none;
+}
+
+.containerOfDateInput:focus-within {
+   border-color: var(--active-input-border);
+}
+
+.input[type='date']::-webkit-calendar-picker-indicator {
+   background: none;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   cursor: pointer;
+}
+.input[type='date']::-webkit-datetime-edit-text {
+   /* -webkit-appearance: none; */
+   display: none;
+}
+.input[type='date']::-webkit-datetime-edit-month-field {
+   -webkit-appearance: none;
+   display: none;
+}
+.input[type='date']::-webkit-datetime-edit-day-field {
+   -webkit-appearance: none;
+   display: none;
+}
+.input[type='date']::-webkit-datetime-edit-year-field {
+   -webkit-appearance: none;
+   display: none;
+}
+
+.icon {
+   position: absolute;
+   background: url(../../../public/img/dateIcon.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   z-index: 10;
+   width: 16px;
+   height: 16px;
+   right: 10px;
+}
+.text {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #959595;
+   position: absolute;
+   left: 16px;
+}
+.blackTextColor {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #959595;
+   position: absolute;
+   left: 16px;
+   color: black;
+}
+
+.error {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: var(--tertiary-red);
+   text-align: end;
+}
+@media (max-width: 450px) {
+   .input[type='date']::-webkit-datetime-edit-text {
+      -webkit-appearance: none;
+      display: none;
+   }
+   .input[type='date']::-webkit-datetime-edit-month-field {
+      -webkit-appearance: none;
+      display: none;
+   }
+   .input[type='date']::-webkit-datetime-edit-day-field {
+      -webkit-appearance: none;
+      display: none;
+   }
+   .input[type='date']::-webkit-datetime-edit-year-field {
+      -webkit-appearance: none;
+      display: none;
+   }
+   .blackTextColor {
+      display: none;
+   }
+
+   .input[type='date']::-webkit-calendar-picker-indicator {
+      background: none;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+   }
+   .icon {
+      right: 5%;
+      z-index: 12;
+   }
+   .input[type='date']::-webkit-inner-spin-button {
+      opacity: 0;
+      visibility: hidden;
+   }
+   .input[type='date']::-webkit-outer-spin-button {
+      visibility: hidden;
+      opacity: 0;
+   }
+}

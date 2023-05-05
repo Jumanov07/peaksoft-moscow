@@ -1,0 +1,60 @@
+.globalCssOfInput {
+   width: 100%;
+   border: 1px solid;
+   padding: 8px 24px 8px 16px;
+   border-color: var(--normal-input-border);
+   font-size: 16px;
+   color: black;
+   border-radius: 6px;
+}
+.globalCssOfInput::placeholder {
+   color: var(--primary-input-text-color);
+}
+.globalCssOfInput:hover {
+   border-color: var(--hover-input-border);
+}
+.globalCssOfInput:focus {
+   border-color: var(--active-input-border);
+}
+.errorStyle {
+   width: 100%;
+   border: 1px solid;
+   padding: 8px 24px 8px 16px;
+   border-color: var(--normal-input-border);
+   font-size: 16px;
+   color: var(--primary-black);
+   border-radius: 6px;
+   border: 1px solid var(--error-color);
+}
+.globalCssOfInput::placeholder {
+   color: var(--primary-input-text-color);
+}
+
+.globalCssOfInput[type='number']::-webkit-inner-spin-button,
+.globalCssOfInput[type='number']::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   margin: 0;
+}
+.errorStyle[type='number']::-webkit-inner-spin-button,
+.errorStyle[type='number']::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   margin: 0;
+}
+
+.error {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: var(--tertiary-red);
+   text-align: end;
+}
+
+@media (max-width: 375px) {
+   .globalCssOfInput {
+      font-weight: 400;
+   }
+}

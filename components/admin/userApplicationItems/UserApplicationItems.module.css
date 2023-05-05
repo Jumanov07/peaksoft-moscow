@@ -1,0 +1,14 @@
+.itemsWrapper {
+   box-sizing: border-box;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 74px 50px 255px 166px 205px 225px 120px 90px;
+   padding: 19px 22px 20px 20px;
+   align-items: center;
+   cursor: pointer;
+}
+.deleteIconStyles {
+   text-align: end;
+   padding-right: 15px;
+   cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.loadingSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1200;
+  position: fixed;
+  width: transparent;
+  height: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

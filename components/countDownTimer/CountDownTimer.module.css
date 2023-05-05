@@ -1,0 +1,48 @@
+.container {
+   box-sizing: border-box;
+   max-width: 537px;
+   background: #46b001;
+   border-radius: 5px;
+   padding: 12px 24px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.p {
+   text-transform: uppercase;
+   color: #ffffff;
+   line-height: 19px;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+}
+
+.forTimer {
+   font-size: 18px;
+   color: #ffffff;
+   display: flex;
+   gap: 8px;
+}
+.days {
+   color: #dad4d4;
+   font-size: 12px;
+   margin-top: 6px;
+   display: flex;
+   gap: 12px;
+}
+
+@media (max-width: 450px) {
+   .container {
+      width: 100%;
+   }
+   .p {
+      font-size: 12px;
+   }
+   .forTimer {
+      font-size: 16px;
+      gap: 6px;
+   }
+   .days {
+      font-size: 10px;
+   }
+}

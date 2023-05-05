@@ -1,0 +1,401 @@
+.container {
+   max-width: 1440px;
+   padding-left: 100px;
+   padding-right: 100px;
+   font-family: var(--base-font);
+}
+.containerBackend {
+   max-width: 1440px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.lines {
+   margin-top: 50px;
+   display: flex;
+}
+
+.frontLines {
+   display: flex;
+   flex-direction: column;
+}
+.aboutContainer {
+   display: flex;
+   margin-left: 40px;
+}
+.parent {
+   margin-left: 127px;
+}
+.frontParent {
+   display: flex;
+}
+
+.circleParent {
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: 1px solid #707070;
+   display: flex;
+   justify-content: center;
+}
+
+.circleChild {
+   width: 19px;
+   height: 19px;
+   border-radius: 50%;
+   background: #1f6ed4;
+   align-self: center;
+}
+
+.line1,
+.line2 {
+   width: 441px;
+   height: 0px;
+   border-bottom: 1px solid #707070;
+   margin-top: 17px;
+}
+.frontLines1 {
+   height: 248px;
+   border-left: 1px solid #707070;
+   margin-left: 17px;
+}
+.frontLines2 {
+   height: 293px;
+   border-left: 1px solid #707070;
+   margin-left: 17px;
+}
+
+.stage {
+   width: 1000px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 130%;
+   color: #161616;
+}
+.frontStage {
+   width: 91px;
+   display: flex;
+   flex-direction: column;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 130%;
+   color: #161616;
+   margin-left: 15px;
+}
+.themes {
+   width: 1240px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 16px;
+   line-height: 140%;
+   margin-top: 46px;
+}
+
+.frontThemes {
+   display: flex;
+   flex-direction: column;
+   gap: 45px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   margin-left: 40px;
+}
+.frontThirdStageThemes {
+   line-height: 23px;
+}
+.frontFirstStage {
+   margin-bottom: 260px;
+}
+
+.frontSecondStage {
+   margin-bottom: 305px;
+}
+
+.thirdStageThemes {
+   width: 277px;
+}
+.secondStageThemes {
+   width: 400px;
+}
+.firstStageThemes {
+   width: 400px;
+}
+
+.firstStageThemes div {
+   margin-top: 12px;
+}
+
+.secondStageThemes div {
+   margin-top: 12px;
+}
+
+.thirdStageThemes div {
+   margin-top: 12px;
+}
+
+.title {
+   padding-top: 80px;
+}
+.description {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 60px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+}
+.firstDescription {
+   width: 600px;
+}
+
+.secondDescription {
+   width: 600px;
+}
+
+.parentThemes {
+   display: flex;
+   justify-content: space-between;
+}
+
+.pathContainer {
+   padding: 120px 0;
+}
+
+.pathContainer .p {
+   margin: 60px 0 40px 0;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+.descContainer {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+.aboutDesc {
+   width: 400px;
+   height: 202px;
+   border-radius: 4px;
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.aboutDesc .spann {
+   display: block;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 18px;
+   border-radius: 4px;
+   text-transform: uppercase;
+   color: #ffffff;
+   width: 84px;
+   padding: 11px 0;
+   background-color: #9fd647;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 16px;
+}
+
+.aboutDesc:nth-child(2) .spann {
+   background-color: #9a96de;
+}
+.aboutDesc:nth-child(3) .spann {
+   background-color: #e28c7f;
+}
+
+.aboutDesc p {
+   text-align: center;
+   width: 350px;
+   font-size: 16px;
+   line-height: 18px;
+   color: #707070;
+}
+
+@media (max-width: 450px) {
+   .container {
+      max-width: 450px;
+      padding: 0 16px;
+      position: relative;
+      margin-bottom: 500px;
+   }
+
+   .containerBackend {
+      max-width: 375px;
+      height: 2890px;
+      padding-left: 16px;
+      padding-right: 16px;
+      position: relative;
+   }
+
+   .title {
+      padding-top: 50px;
+   }
+
+   .description {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+
+   .firstDescription {
+      width: 343px;
+   }
+
+   .secondDescription {
+      width: 343px;
+      margin-top: 20px;
+   }
+
+   .parent {
+      margin-left: 0px;
+   }
+
+   .lines {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .line1,
+   .line2 {
+      width: 0px;
+      border: 1px solid #707070;
+      margin-top: 0px;
+      margin-left: 16px;
+   }
+
+   .line1 {
+      height: 300px;
+   }
+
+   .containerBackend .line1 {
+      height: 380px;
+   }
+
+   .line2 {
+      height: 370px;
+   }
+
+   .containerBackend .line2 {
+      height: 460px;
+   }
+
+   .themes {
+      max-width: 220px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      position: absolute;
+      top: 1495px;
+      left: 61px;
+   }
+
+   .stage {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+   }
+
+   .thirdStageThemes {
+      width: 277px;
+      margin-bottom: 57px;
+   }
+
+   .secondStageThemes {
+      width: 298px;
+      margin-bottom: 57px;
+   }
+   .firstStageThemes {
+      width: 298px;
+      margin-bottom: 70px;
+      margin-top: 20px;
+   }
+
+   .firstStageThemes div {
+      margin-top: 7px;
+   }
+
+   .secondStageThemes div {
+      margin-top: 7px;
+   }
+
+   .thirdStageThemes div {
+      margin-top: 7px;
+   }
+
+   .stage {
+      position: absolute;
+      top: 1455px;
+      left: 60px;
+      max-width: 220px;
+   }
+   .secondStage {
+      margin-top: 308px;
+      margin-left: 7px;
+   }
+   .thirdStage {
+      margin-top: 378px;
+      margin-left: 7px;
+   }
+
+   .containerBackend .secondStage {
+      margin-top: 387px;
+      margin-left: 7px;
+      max-width: 220px;
+   }
+
+   .containerBackend .thirdStage {
+      margin-top: 468px;
+      margin-left: 7px;
+      max-width: 220px;
+   }
+
+   .firstStage {
+      margin-left: 7px;
+      max-width: 220px;
+   }
+
+   .pathContainer {
+      width: 100%;
+   }
+
+   .aboutContainer {
+      margin-left: 0;
+      position: relative;
+   }
+   .frontThemes {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      line-height: 25px;
+      margin-left: 40px;
+   }
+   .frontSecondStage {
+      margin-top: 25px;
+   }
+   .frontThirdStage {
+      margin-top: 115px;
+   }
+   .frontSecondStageTheme {
+      margin-top: 40px;
+   }
+   .frontThirdStageThemes {
+      margin-top: 70px;
+      line-height: 21px;
+   }
+
+   .frontLines1 {
+      height: 271px;
+   }
+   .frontLines2 {
+      height: 412px;
+   }
+}

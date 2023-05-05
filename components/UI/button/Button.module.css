@@ -1,0 +1,52 @@
+.sumbissionButtonStyles {
+   padding: 1em 2.5em;
+   background-color: #4c94f0;
+   border-radius: 10px;
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--primary-white);
+   cursor: pointer;
+}
+
+.sumbissionButtonStyles:hover {
+   background-color: var(--secondary-hover-btn);
+   box-shadow: 0px 6px 18px rgba(31, 110, 212, 0.42);
+}
+.sumbissionButtonStyles:focus {
+   background-color: var(--secondary-active-btn);
+}
+.sumbissionButtonStyles:disabled {
+   background-color: var(--secondary-disabled-btn);
+   cursor: not-allowed;
+}
+.cancelButtonStyles {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   padding: 1em 0.6em;
+   background: none;
+   color: #adadad;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.cancelButtonStyles:hover {
+   background-color: #f8f8f8;
+   box-shadow: 0px 6px 18px rgba(199, 205, 214, 0.42);
+}
+.cancelButtonStyles:focus {
+   background-color: #f3f3f3;
+}
+@media (max-width: 450px) {
+   .sumbissionButtonStyles {
+      font-style: normal;
+   }
+}

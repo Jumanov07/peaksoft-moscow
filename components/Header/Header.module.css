@@ -1,0 +1,307 @@
+@font-face {
+   font-family: 'Venus Rising';
+   src: url('../../public/fonts/Typodermic\ -\ VenusRisingRg-Regular.ttf');
+   src: url('../../public//fonts/Typodermic\ -\ VenusRisingRg-Regular.ttf')
+         format('woff'),
+      url('../../public/fonts/Typodermic\ -\ VenusRisingRg-Regular.ttf')
+         format('opentype'),
+      url('../../public/fonts/Typodermic\ -\ VenusRisingRg-Regular.ttf')
+         format('svg');
+}
+.container {
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: #077cc1;
+   overflow: hidden;
+   padding-top: 17vh;
+}
+
+.wrapper {
+   width: 95%;
+   max-width: 1440px;
+   height: 712px;
+   color: #ffffff;
+   position: relative;
+   margin: auto;
+   background-image: url('../../public/img/backgrounLines.svg');
+   background-position: 96px;
+}
+
+.icon {
+   cursor: pointer;
+}
+.contacts {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.numPhone {
+   margin-top: 9px;
+}
+
+.iconWorkingTime,
+.IconNumPhone {
+   margin-right: 10.57px;
+}
+.menus {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.menu {
+   margin-left: 36px;
+   cursor: pointer;
+}
+
+.menu:hover {
+   color: #6fb1ff;
+}
+
+.workingTime {
+   display: flex;
+}
+
+.numPhone {
+   display: flex;
+}
+
+.text {
+   margin-left: 100px;
+   padding-top: 180px;
+   display: flex;
+   vertical-align: auto;
+   font-family: 'Venus Rising';
+   letter-spacing: 0px;
+}
+.socialSites {
+   margin-left: 90%;
+   margin-top: -30px;
+}
+
+.instagram,
+.whatsapp,
+.telegram {
+   width: 40px;
+   height: 40px;
+   background: rgba(255, 255, 255, 0.12);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 16px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.house {
+   font-size: 50px;
+   line-height: 59px;
+   color: #c5c7c8;
+   font-family: var(--base-font);
+   font-weight: 600;
+   margin-left: 106px;
+}
+
+.button {
+   width: 306px;
+   height: 55px;
+   background-color: white !important;
+   color: #1f6ed4 !important;
+   font-size: 16px !important;
+   font-weight: 600;
+   margin-left: 100px;
+   margin-top: 50px;
+   white-space: nowrap;
+   position: relative;
+   z-index: 2;
+}
+
+.button:hover {
+   box-shadow: 0px 6px 18px rgba(31, 110, 212, 0.42);
+}
+
+.peakText,
+.softText {
+   font-family: 'Venus Rising';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 120px;
+   line-height: 144px;
+}
+
+.peakText {
+   color: rgba(0, 0, 0, 0);
+   text-transform: capitalize;
+   background-size: 200%, 200%;
+   -webkit-text-stroke: 1.5px #d1e6ff;
+}
+
+.softText {
+   background: linear-gradient(265.91deg, #ff5b91 26.36%, #ffd92d 97.23%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+.peakText > span {
+   text-transform: uppercase;
+   animation: glow 5s ease-in-out infinite;
+}
+.softText > span {
+   text-transform: uppercase;
+   animation: glow 5s ease-in-out infinite;
+}
+.peakText > span:nth-child(1) {
+   animation-delay: 1.5s;
+}
+.peakText > span:nth-child(2) {
+   animation-delay: 1.6s;
+}
+
+.peakText > span:nth-child(3) {
+   animation-delay: 1.7s;
+}
+
+.peakText > span:nth-child(4) {
+   animation-delay: 1.8s;
+}
+
+.softText > span:nth-child(1) {
+   animation-delay: 1.9s;
+}
+
+.softText > span:nth-child(2) {
+   animation-delay: 2s;
+}
+
+.softText > span:nth-child(3) {
+   animation-delay: 2.1s;
+}
+.softText > span:nth-child(4) {
+   animation-delay: 2.2s;
+}
+@keyframes glow {
+   0%,
+   100% {
+      text-shadow: 0 0 10px #9ba5b8, 0 0 50px #8f9aaf, 0 0 100px #0652dd;
+   }
+
+   10%,
+   90% {
+      text-shadow: none;
+   }
+}
+/* styles */
+@media (max-width: 991px) {
+   .container {
+      max-width: 100%;
+   }
+
+   .wrapper {
+      width: 100%;
+      max-width: 100%;
+   }
+   .text {
+      margin-left: 40px;
+   }
+   .house {
+      margin-left: 46px;
+   }
+   .button {
+      margin-left: 45px;
+   }
+   .peakText,
+   .softText {
+      font-size: 11vw;
+      line-height: 144px;
+   }
+}
+@media (max-width: 450px) {
+   .container {
+      width: 100%;
+      height: auto;
+      padding-bottom: 100px;
+   }
+   .wrapper {
+      background-image: url('../../public/img/backgrounLinesMini.svg');
+      background-repeat: no-repeat;
+      background-position: 10px;
+      height: auto;
+   }
+   .house {
+      margin-left: 11px;
+      margin-top: 0px;
+      font-size: 22px;
+   }
+
+   .text {
+      width: 50%;
+      margin-left: 0;
+      display: flex;
+      justify-content: flex-start;
+      vertical-align: auto;
+      font-family: 'Venus Rising';
+      letter-spacing: 0px;
+   }
+
+   .menus {
+      display: none;
+   }
+
+   .socialSites {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-left: 0px;
+      margin-right: 16px;
+      margin-top: 0px;
+   }
+
+   .instagram,
+   .whatsapp,
+   .telegram {
+      margin-left: 26px;
+      margin-top: 47px;
+      cursor: pointer;
+   }
+
+   .peakText {
+      font-family: 'Venus Rising';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 50px;
+   }
+   .softText {
+      font-family: 'Venus Rising';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 50px;
+      background: linear-gradient(266.47deg, #ff5b91 6.89%, #368aee 97.34%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+   }
+   .peakText {
+      margin-left: 10px;
+   }
+
+   .peakText {
+      -webkit-text-stroke: 1px #54a1fc;
+   }
+   .button {
+      width: 94%;
+      padding: 0;
+      margin: 106px 10px 0px 10px;
+      white-space: nowrap;
+   }
+
+   .navbar {
+      justify-content: space-between;
+      margin-left: 10px;
+      margin-right: 24px;
+   }
+}

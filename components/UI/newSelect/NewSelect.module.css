@@ -1,0 +1,19 @@
+.select {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   border-radius: 6px;
+   font-weight: 400;
+   font-size: 16px;
+   color: #000000;
+   text-align: start;
+}
+.error {
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: var(--tertiary-red);
+   text-align: end;
+}

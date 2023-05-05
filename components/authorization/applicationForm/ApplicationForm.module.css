@@ -1,0 +1,83 @@
+.formWrapper {
+   box-sizing: border-box;
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   padding: 30px;
+   color: var(--primary-black);
+   width: 667px;
+}
+.applicationTitle {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 23px;
+   color: var(--primary-black);
+}
+.formHeader {
+   display: flex;
+   justify-content: space-between;
+}
+.iconXStyles {
+   cursor: pointer;
+}
+.radioButtonContainer {
+   display: flex;
+
+   position: relative;
+}
+.userInfoContent {
+   display: flex;
+   justify-content: space-between;
+   text-align: start;
+}
+.userDataContent {
+   position: relative;
+}
+.userBirthdateContent {
+   width: 221px;
+}
+.userSelectSection {
+   position: relative;
+   text-align: start;
+}
+.usersSubmitSection {
+   text-align: end;
+   padding-top: 30px;
+}
+.buttonStyles {
+   margin-right: 10px;
+   width: 172px;
+}
+@media (max-width: 450px) {
+   .formWrapper {
+      padding: 15px 16px;
+      color: var(--primary-black);
+      width: 100%;
+      height: 632px;
+      overflow: auto;
+   }
+   .userInfoContent {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: start;
+   }
+   .usersSubmitSection {
+      display: flex;
+   }
+   .radioButtonContainer {
+      position: relative;
+   }
+   .userBirthdateContent {
+      width: 100%;
+   }
+   .applicationTitle {
+      margin-bottom: 37px;
+   }
+   .userSelectSection {
+      position: relative;
+      width: 100%;
+   }
+}

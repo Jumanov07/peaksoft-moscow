@@ -1,0 +1,44 @@
+.textBanner {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 26px;
+   color: var(--primary-blacks);
+}
+.bannerHeaderStyles {
+   display: flex;
+   justify-content: space-between;
+   background-color: transparent;
+   height: 100px;
+   align-items: center;
+}
+.bannerList {
+   width: 1240px;
+   margin: 0 auto;
+   min-height: 700px;
+   background: #ffffff;
+   border: 1px solid #f0f0f0;
+   border-radius: 6px;
+}
+.bannerNavigator {
+   display: flex;
+   margin-bottom: 20px;
+   justify-content: space-between;
+   width: 180px;
+}
+.activeLink {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+   border-bottom: 2px solid;
+   border-color: #161616;
+}
+.notActiveLink {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #707070;
+}

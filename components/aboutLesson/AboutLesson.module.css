@@ -1,0 +1,44 @@
+.container {
+   width: 100%;
+   font-family: var(--base-font);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 1250px;
+   width: 82%;
+   margin: 0 auto;
+   padding-top: 150px;
+}
+
+.title {
+   margin-bottom: 60px;
+}
+
+@media (max-width: 450px) {
+   .container {
+      height: auto;
+      margin: 0;
+   }
+
+   .wrapper {
+      width: 100%;
+      margin: 0;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 80px;
+   }
+
+   .title {
+      margin-bottom: 60px;
+      margin-left: 16px;
+      width: 300px;
+   }
+   .slider {
+      width: 100%;
+   }
+}

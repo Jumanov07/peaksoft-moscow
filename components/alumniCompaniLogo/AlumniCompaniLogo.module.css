@@ -1,0 +1,48 @@
+.container {
+   max-width: 1240px;
+   margin: 0 auto;
+   margin-bottom: 120px;
+}
+
+.innerContainer {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.innerContainer div {
+   width: 398px;
+   height: 234px;
+}
+
+.title {
+   display: inline-block;
+   text-transform: uppercase;
+   margin-bottom: 60px;
+   font-weight: 500;
+   font-size: 34px;
+   line-height: 40px;
+   background: linear-gradient(265.91deg, #ff5b91 26.36%, #e7c00f 97.23%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+}
+
+@media (max-width: 450px) {
+   .container {
+      width: 100%;
+      padding: 0 16px;
+   }
+   .title {
+      width: 340px;
+      font-size: 26px;
+      line-height: 30px;
+   }
+   .innerContainer div {
+      width: 164px;
+      height: 101px;
+   }
+}

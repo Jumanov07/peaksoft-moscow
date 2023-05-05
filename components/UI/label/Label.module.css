@@ -1,0 +1,18 @@
+.globalLabelStyles {
+   font-family: var(--base-font);
+   font-weight: bold;
+   font-size: 14px;
+   color: var(--primary-black);
+   padding: 20px 0 14px 0;
+   display: inline-block;
+   font-style: normal;
+}
+.required {
+   color: red;
+}
+
+@media (max-width: 450px) {
+   .globalLabelStyles {
+      padding: 14px 0 14px 0;
+   }
+}

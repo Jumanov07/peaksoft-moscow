@@ -1,0 +1,56 @@
+.signContainer {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--base-font);
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.signInLabel {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--hover-input-border);
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+.formControl {
+  display: flex;
+  flex-direction: column;
+  width: 505px;
+}
+.logoContainer {
+  margin-bottom: 45px;
+}
+.inputFieldBox {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.passwordEye {
+  position: absolute;
+  right: 20px;
+  bottom: 6px;
+  cursor: pointer;
+}
+.hidePasswordClassName {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.error {
+  font-family: var(--base-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--tertiary-red);
+  text-align: end;
+}

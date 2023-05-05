@@ -1,0 +1,22 @@
+.container {
+   width: 100%;
+   background: #e5e5e5;
+   font-family: var(--base-font);
+}
+
+.wrapper {
+   width: 1440px;
+   margin: auto;
+}
+
+.backenddWrapper {
+   width: 100%;
+   height: auto;
+}
+
+@media (max-width: 450px) {
+   .wrapper {
+      width: 100%;
+      margin: auto;
+   }
+}

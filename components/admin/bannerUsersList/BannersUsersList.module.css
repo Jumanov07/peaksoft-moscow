@@ -1,0 +1,33 @@
+.list {
+   overflow: hidden;
+}
+
+.list::-webkit-scrollbar {
+   width: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+   box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+   background-color: #f9f9fd;
+   border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+.noUsersClassName {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 20px;
+   font-weight: 500;
+   height: 60px;
+   font-family: var(--base-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+}

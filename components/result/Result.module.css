@@ -1,0 +1,182 @@
+.container {
+   max-width: 1240px;
+   margin: 0 auto;
+   font-family: var(--base-font);
+}
+
+.wrapper {
+   max-width: 1240px;
+   height: auto;
+   margin: 0 auto;
+   padding-bottom: 100px;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.title {
+   display: inline-block;
+   text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+   padding-bottom: 106px;
+   font-size: 34px;
+   background: linear-gradient(265.91deg, #ff5b91 26.36%, #e7c00f 97.23%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+}
+
+.box {
+   width: 1239px;
+   height: 750px;
+   background-color: #ffffff;
+   margin: auto;
+}
+
+.chooser {
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+}
+.active {
+   width: 410px;
+   height: 100px;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-transform: uppercase;
+   color: #161616;
+   text-align: center;
+   vertical-align: middle;
+   transition: all 0.3s;
+}
+
+.notactive {
+   width: 410px;
+   height: 100px;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-transform: uppercase;
+   color: #c3c3c3;
+   text-align: center;
+   background: #ffffff;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+   transition: all 0.3s;
+}
+
+.certificateContent {
+   width: 759px;
+   height: 545px;
+   margin: auto;
+   transition: all 0.3s;
+}
+
+.resumeContent {
+   width: 425px;
+   height: 545px;
+   margin: auto;
+   transition: all 0.3s;
+}
+
+.projectContent {
+   width: 700px;
+   height: 645px;
+   margin: auto;
+   transition: all 0.3s;
+}
+
+.tabText {
+   margin-top: 44px;
+}
+
+.content {
+   padding-top: 40px;
+}
+
+.btnBox {
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+}
+.btnBoxButton {
+   width: 306px;
+   height: 51px;
+}
+
+@media (max-width: 450px) {
+   .wrapper {
+      width: 100%;
+      height: auto;
+   }
+   .container {
+      width: 100%;
+      padding: 0 16px;
+      background: #e5e5e5;
+   }
+
+   .box {
+      width: 100%;
+      height: 315px;
+   }
+
+   .certificateContent {
+      width: 253px;
+      height: 181px;
+      margin: auto;
+      transition: all 0.3s;
+   }
+
+   .resumeContent {
+      width: 178px;
+      height: 181px;
+      margin: auto;
+      transition: all 0.3s;
+   }
+
+   .projectContent {
+      width: 280px;
+      height: 258px;
+      margin: auto;
+      transition: all 0.3s;
+   }
+
+   .active {
+      width: 114px;
+      height: 70px;
+      font-size: 12px;
+   }
+
+   .notactive {
+      width: 114px;
+      height: 70px;
+      font-size: 12px;
+   }
+
+   .active p,
+   .notactive p {
+      line-height: 70px;
+   }
+   .title {
+      padding-bottom: 42px;
+      font-size: 20px;
+   }
+   .tabText {
+      margin-top: 0;
+   }
+   .content {
+      padding-top: 0px;
+   }
+   .btnBoxButton {
+      width: 90%;
+      height: 51px;
+   }
+}

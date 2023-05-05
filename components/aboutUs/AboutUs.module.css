@@ -1,0 +1,151 @@
+.container {
+   padding: 0;
+   width: 100%;
+   font-family: var(--base-font);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   width: 82%;
+   max-width: 1250px;
+   margin: 0 auto;
+}
+
+.containerAboutUs {
+   width: auto;
+   height: 519px;
+   margin-bottom: 179px;
+}
+.displaySection {
+   width: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.aboutTitles {
+   display: inline-block;
+   text-transform: uppercase;
+   font-weight: 500;
+   margin-bottom: 60px;
+   font-size: 34px;
+   background: linear-gradient(265.91deg, #ff5b91 26.36%, #e7c00f 97.23%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+}
+
+.scrollbarText {
+   margin: 0;
+   padding: 0;
+   width: 60%;
+   height: 419px;
+   overflow-y: scroll;
+}
+.textAboutUs {
+   font-size: 16px;
+   margin-right: 20px;
+   color: #161616;
+   margin-bottom: 40px;
+   line-height: 22.4px;
+}
+
+.scrollbarText::-webkit-scrollbar {
+   width: 6px;
+}
+.scrollbarText::-webkit-scrollbar-thumb {
+   background: #c4c4c4;
+   border-radius: 8px;
+}
+.img {
+   margin-left: 20px;
+   width: 60%;
+   height: 419px;
+   position: relative;
+   object-fit: cover;
+}
+.img span {
+   min-height: 100%;
+   min-width: 100%;
+   object-fit: cover;
+   background-size: cover;
+}
+@media (max-width: 1280px) {
+   .section {
+      width: 82%;
+      max-width: 1280px;
+      margin: 0 auto;
+   }
+}
+@media (max-width: 991px) {
+   .section {
+      width: 90%;
+      max-width: 100%;
+      margin: 0 auto;
+   }
+}
+@media (max-width: 450px) {
+   .container {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+   }
+   .section {
+      width: 100%;
+   }
+
+   .containerAboutUs {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0;
+   }
+
+   .displaySection {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .scrollbarText {
+      margin: 0;
+      padding: 0;
+      width: 90%;
+      height: 419px;
+   }
+
+   .aboutTitles {
+      font-size: 26px;
+      margin-left: 20px;
+      margin-top: 120px;
+   }
+
+   .textAboutUs {
+      margin-right: 0;
+   }
+
+   .scrollbarText::-webkit-scrollbar {
+      width: 6px;
+   }
+
+   .img {
+      margin: 0;
+      width: 90%;
+      text-align: start;
+      height: 300px;
+   }
+
+   .img span {
+      min-height: 100%;
+      min-width: 100%;
+   }
+}

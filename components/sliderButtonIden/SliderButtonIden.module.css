@@ -1,0 +1,22 @@
+.statusButtons {
+   display: flex;
+   width: 80px;
+   justify-content: space-between;
+   margin: auto;
+   margin-top: 16px;
+   font-family: var(--base-font);
+}
+.buttonStatus {
+   width: 10px;
+   height: 10px;
+   background: #c9c9c9;
+   border-radius: 50%;
+   margin-bottom: 100px;
+}
+.activeButton {
+   width: 26px;
+   height: 10px;
+   background: #0052bc;
+   border-radius: 8px;
+   transition: ease-in-out 0.3s;
+}

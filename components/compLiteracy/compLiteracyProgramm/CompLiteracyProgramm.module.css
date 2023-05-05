@@ -1,0 +1,134 @@
+.container {
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 120px 0;
+}
+
+.title {
+   display: inline-block;
+   font-weight: 500;
+   font-size: 34px;
+   text-transform: uppercase;
+   background: linear-gradient(266.47deg, #ff5b91 6.89%, #368aee 97.34%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   margin-bottom: 60px;
+}
+
+.innerContainer {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 91px;
+}
+
+.programmContainer {
+   display: flex;
+   flex-direction: column;
+}
+.week {
+   width: 80px;
+   height: 80px;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 19px;
+   color: #ffffff;
+   border-radius: 50%;
+   background: linear-gradient(280.76deg, #1e6ed3 26.45%, #64acfb 86.1%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 0 16px 45px;
+}
+
+.line {
+   display: block;
+   width: 175px;
+   border-top: 1px solid #1f6ed4;
+   margin-bottom: 30px;
+}
+
+.programm {
+   width: 170px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   color: #161616;
+}
+
+.circle {
+   width: 35px;
+   height: 35px;
+   border: 1px solid #707070;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.innerCircle {
+   display: block;
+   width: 19px;
+   height: 19px;
+   background: #1f6ed4;
+   border-radius: 50%;
+}
+
+.lineY {
+   height: 392px;
+   border-left: 1px solid #707070;
+   margin-left: 16px;
+}
+
+.textContainer {
+   max-width: 885px;
+   font-size: 16px;
+   margin-top: 120px;
+   line-height: 24px;
+   display: flex;
+   gap: 60px;
+}
+.article p {
+   margin-bottom: 40px;
+}
+
+.article span {
+   font-size: 16px;
+   font-weight: 700;
+   color: #161616;
+}
+
+.list {
+   margin-left: 35px;
+   list-style: disc;
+}
+
+@media (max-width: 450px) {
+   .container {
+      width: 100%;
+      padding: 0 16px;
+      margin-bottom: 150px;
+   }
+   .title {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 23px;
+      margin-top: 60px;
+   }
+   .innerContainer {
+      justify-content: center;
+      gap: 40px;
+   }
+   .lineY {
+      height: 855px;
+   }
+   .textContainer {
+      width: 100%;
+      gap: 20px;
+   }
+   .article p {
+      margin-bottom: 20px;
+   }
+}

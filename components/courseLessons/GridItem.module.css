@@ -1,0 +1,22 @@
+.gridItem {
+   margin-bottom: 16px;
+   margin-right: 20px;
+   font-family: var(--base-font);
+}
+.gridItem span {
+   width: 295px;
+   height: 351px;
+   object-fit: cover;
+}
+
+@media (max-width: 450px) {
+   .gridItem {
+      width: 100%;
+      margin-bottom: 1px;
+      margin-right: 0;
+   }
+   .gridItem span {
+      width: 100%;
+      height: auto;
+   }
+}
